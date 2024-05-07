@@ -25,16 +25,16 @@ export class AppController {
     return new Observable((observer) => {
       observer.next({ data: { msg: 'aaa' } });
 
-      // setTimeout(() => {
-      //   observer.next({ data: { msg: 'bbb' } });
-      // }, 2000);
+      /*
+      setTimeout(() => {
+        observer.next({ data: { msg: 'bbb' } });
+      }, 2000);
 
-      // setTimeout(() => {
-      //   observer.next({ data: { msg: 'bbb' } });
-      // }, 5000);
+      setTimeout(() => {
+        observer.next({ data: { msg: 'ccc' } });
+      }, 5000);
+      */
 
     });
-
-
   }
 }
